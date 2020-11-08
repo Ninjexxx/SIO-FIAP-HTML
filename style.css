@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Oxanium', cursive;
+  src: url(https://fonts.googleapis.com/css?family=Oxanium&display=swap);
+}
+
+body {
+  background-color: #033E8C;
+}
+
+.caixa {
+	position: relative;
+	margin: 0 auto;
+}
+
+div {
+  background-color: #111E6C;
+}
+
+.titulo {
+  padding-top: 10px;
+  font-family: Oxanium;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.titulo2 {
+  position: absolute;
+  right: 100px;
+  bottom: 300px;
+  font-family: Oxanium;
+  font-size: 40px;
+  text-align: center;
+  color: #F20574;
+}
+
+.titulo3 {
+  position: absolute;
+  right: 480px;
+  bottom: 400px;
+  font-family: Oxanium;
+  font-size: 40px;
+  text-align: center;
+  color: #F20574;
+}
+
+.titulo4 {
+  position: absolute;
+  right: 380px;
+  bottom: 380px;
+  font-family: Oxanium;
+  font-size: 40px;
+  text-align: center;
+  color: #F20574
+}
+
+.titulo5 {
+  position: absolute;
+  right: 430px;
+  bottom: 250px;
+  font-family: Oxanium;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.form {
+  font-family: Oxanium;
+  color: white;
+  position: absolute;
+  top: 250px;
+  right: 350px;
+}
+
+.formrobot {
+  position: absolute;
+  top: 220px;
+  right: 900px;
+}
+
+.mover1:hover {
+	transform: scale(1.3);
+	transition: 1s;
+	color: #F20574;
+}
+
+.mover2:hover {
+	transform: scale(1.3);
+	transition: 1s;
+	color: #F20574;
+}
+
+.mover3:hover {
+	transform: scale(1.3);
+	transition: 1s;
+	color: #F20574;
+}
+
+.mover4:hover {
+	transform: scale(1.3);
+	transition: 1s;
+	color: #F20574;
+}
+
+.mover5:hover {
+	transform: scale(1.3);
+	transition: 1s;
+	color: #F20574;
+}
+
+nav {
+	position: absolute;
+	top: 60px;
+	right: 350px;
+  text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+  text-align: center;
+}
+
+nav a {
+  font-family: Oxanium;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.fiaplogo {
+  position: absolute;
+  right: 620px;
+  top: 105px;
+}
+
+.roboescola2 {
+  position: absolute;
+  top: 375px;
+  right: 10px;
+  border: solid white;
+  border-radius: 20px;
+}
+
+.video {
+  position: absolute;
+  top: 205px;
+  left: 30px;
+  border: solid white;
+}
+
+.codsworth {
+  width: 30%;
+  padding-top: 100px;
+}
+
+.roboassist {
+  position: absolute;
+  top: 400px;
+  left: 900px;
+  border: solid white;
+  border-radius: 20px;
+  width: 30%
+}
+
+.tabela {
+  text-align: center;
+  color: white;
+  font-family: Oxanium;
+  font-size: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+.kidrobot {
+  position: absolute;
+  padding-top: 100px;
+  left: 50px;
+}
+
+.primeiroParagrafo {
+  text-align: center;
+}
+
+.sobre {
+  position: absolute;
+  right: 80px;
+  bottom: 150px;
+  font-family: Oxanium;
+  font-size: 15px
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  padding: 6px 20px;
+}
+
+.sobre2 {
+  position: absolute;
+  right: 350px;
+  top: 250px;
+  font-family: Oxanium;
+  font-size: 15px
+  text-align: center;
+  color: white;
+}
+
+.sobre3 {
+  position: absolute;
+  right: 480px;
+  top: 410px;
+  font-family: Oxanium;
+  font-size: 15px
+  text-align: center;
+  color: white;
+}
+
+.sobre4 {
+  position: absolute;
+  right: 190px;
+  top: 260px;
+  font-family: Oxanium;
+  font-size: 15px
+  text-align: center;
+  color: white;
+}
+
+.Copyright {
+  position: absolute;
+  top: 650px;
+  right: 630px;
+  font-family: Oxanium;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
